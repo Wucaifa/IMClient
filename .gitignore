@@ -1,0 +1,17 @@
+# 忽略 build 和 debug 文件夹
+/build/
+/debug/
+
+/bin/                # 如果你也不想上传 exe 文件
+*.exe                # 忽略所有 exe 文件（编译生成的）
+
+# 也可以忽略 Qt 临时文件
+*.user
+*.user.*
+*.pro.user
+*.pro.user.*
+
+# 临时备份文件
+*.log
+*.tmp
+*.bak
